@@ -1,0 +1,2 @@
+# ScreenSound
+Crie e manipule classes e objetos em C# Utilize propriedades e métodos para gerenciar atributos Desenvolva habilidades em programação orientada a objetos Trabalhe com listas e lambdas em C# Gerencie relacionamentos entre classes no Visual Studio Aplique construtores e parâmetros em C#
