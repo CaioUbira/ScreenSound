@@ -4,19 +4,10 @@
     public string Artista { get; set; }
     public int Duracao { get; set; }
     public bool Disponivel { get; set; }
-    public string DescricaoResumida
+    public string DescricaoResumida => $"A musica {Nome} pertence a banda {Artista}";
 
 
-    {
-
-        get
-        {
-            return $"A musica {Nome} pertence a banda {Artista}";
-        }
-
-
-    }
-
+    
     public void ExibirFichaTecnica()
     {
         Console.WriteLine($"Nome: {Nome}");
