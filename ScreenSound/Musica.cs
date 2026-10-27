@@ -20,6 +20,7 @@
         else
         {
             Console.WriteLine("Adquira no plano Plus+");
+            Console.WriteLine();
         }
     }
 }
