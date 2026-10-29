@@ -9,7 +9,7 @@ musica1.Duracao = 213;
 
 Musica musica2 = new Musica();
 musica2.Nome = "Bohemian Rhapsody";
-musica1.Duracao = 354;
+musica2.Duracao = 354;
 
 albumDoQueen.AdicionarMusica(musica1);
 albumDoQueen.AdicionarMusica(musica2);

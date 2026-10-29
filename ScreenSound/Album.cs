@@ -3,14 +3,13 @@
     private List<Musica> musicas = new List<Musica>();
     public string Nome { get; set; }
 
-    public int DuracaoTotal { get; set; }
+    public int DuracaoTotal => musicas.Sum(m => m.Duracao);
 
     public void AdicionarMusica(Musica musica)
 
     {
         musicas.Add(musica);
     }
-    // Código suprimido
 
     public void ExibirMusicasDoAlbum()
     {
@@ -19,5 +18,6 @@
         {
             Console.WriteLine($"Música: {musica.Nome}");
         }
+        Console.WriteLine($"\nPara ouvir este álbum interiro vocÊ precisa de {DuracaoTotal} ");
     }
 }
