@@ -15,3 +15,8 @@ albumDoQueen.AdicionarMusica(musica1);
 albumDoQueen.AdicionarMusica(musica2);
 
 albumDoQueen.ExibirMusicasDoAlbum();
+
+Banda queen = new Banda();
+queen.Nome = "Queen";
+queen.AdicionarAlbum(albumDoQueen);
+queen.ExibirDiscografia();
